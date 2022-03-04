@@ -15,23 +15,27 @@ html {
 }
 body {
   display: flex;
-  border: 2px grey;
-  border-radius: 20%;
+  padding: 10px 0 10px 0;
+  border: 2px solid grey;
+  border-radius: 2%;
   width: 80%;
   margin: 0 auto;
 }
 .left {
-  background: var(--main-color);
+  background-color: var(--main-color);
   color: #fff;
   width: 20%;
-  height: 100%;
+  height: calc(inherit + 50px);
+  position: relative;
+  top: -10px;
+  border-top-left-radius: inherit;
 }
 
 .right {
   background: #fff;
   width: 80%;
   height: 100%;
-  margin: 10px 0 0 5px;
+  margin: 0 0 0 20px;
 }
 
 .right .names * {
@@ -101,6 +105,87 @@ h4 {
   font-style: italic;
 }
 
+p,
 li {
   line-height: 150%;
+}
+
+.timeline {
+  padding: 0 20px 0 30px;
+  border-left: 1px solid var(--main-color);
+}
+
+.skillParagraphs p,
+.skills div p,
+section .certifications p:not(:first-child) {
+  position: relative;
+  left: -12px;
+}
+
+h4::before {
+  content: "";
+  display: block;
+  width: 8px;
+  height: 8px;
+  background-color: var(--main-color);
+  border-radius: 50%;
+  position: relative;
+  top: 18px;
+  left: -34px;
+}
+
+.skillParagraphs p::before,
+.skills div p::before,
+section .certifications p:not(:first-child)::before {
+  content: "";
+  display: block;
+  width: 8px;
+  height: 8px;
+  background-color: var(--main-color);
+  border-radius: 50%;
+  position: relative;
+  top: 16px;
+  left: -22px;
+}
+
+.left div p {
+  position: relative;
+  top: 20px;
+}
+
+.senior,
+.junior,
+.BS,
+.PMP {
+  display: flex;
+}
+
+.senior p,
+.junior p,
+.BS p,
+.PMP p {
+  position: relative;
+  top: 16px;
+  left: -200px;
+  color: var(--main-light-color);
+}
+
+.BS h4 {
+  position: relative;
+  left: -132px;
+}
+
+.junior h4 {
+  position: relative;
+  left: -130px;
+}
+
+.senior h4 {
+  position: relative;
+  left: -127px;
+}
+
+.PMP h4 {
+  position: relative;
+  left: -10px;
 }
