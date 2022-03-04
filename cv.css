@@ -52,6 +52,7 @@ body {
   display: grid;
   grid-auto-flow: column;
   grid-template-rows: 50px 2fr;
+  grid-template-columns: 30% 2fr;
 }
 
 .contact div {
@@ -76,5 +77,30 @@ svg path {
 
 .description p {
   width: calc(100% - 60px);
+  line-height: 150%;
+}
+
+.skillset .text * {
+  line-height: 150%;
+}
+
+.skillset .text .title {
+  font-size: 20px;
+  font-weight: 800;
+  color: var(--main-color);
+  margin: 15px 0 0 0;
+}
+
+h4 {
+  font-size: 18px;
+  margin: 5px 0 0 0;
+  text-transform: capitalize;
+}
+
+.italic {
+  font-style: italic;
+}
+
+li {
   line-height: 150%;
 }
