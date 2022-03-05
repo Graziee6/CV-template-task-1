@@ -209,3 +209,81 @@ section .certifications p:not(:first-child)::before {
   left: -71px;
   top: -2px;
 }
+
+.icons {
+  display: block;
+}
+
+.icon {
+  display: block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: var(--main-color);
+  justify-content: center;
+}
+
+.icons .one {
+  position: absolute;
+  top: 303px;
+  left: 353px;
+}
+
+.icons .one svg {
+  margin: 1px 2px 0 2px;
+  padding: 4px 4px;
+  fill: var(--main-light-color);
+  font-size: 15px;
+}
+
+.icons .two {
+  position: absolute;
+  top: 670px;
+  left: 353px;
+}
+.icons .two svg {
+  margin: 3px 0 0 1px;
+  fill: var(--main-light-color);
+  font-size: 15px;
+  padding: 3px 3px;
+}
+
+.icons .three {
+  position: absolute;
+  top: 825px;
+  left: 353px;
+}
+
+.icons .three svg {
+  padding: 4px 4px;
+  fill: var(--main-light-color);
+  font-size: 12px;
+  margin: 0 0 2px 2px;
+  transform: rotate(30);
+}
+
+.icons .four {
+  position: absolute;
+  top: 1000px;
+  left: 353px;
+}
+
+.icons .four svg {
+  padding: 4px 4px;
+  fill: var(--main-light-color);
+  font-size: 12px;
+  margin: 3px 2px 0 1px;
+}
+
+.icons .five {
+  position: absolute;
+  top: 1110px;
+  left: 353px;
+}
+
+.icons .five svg {
+  margin: 4px 0 0 3px;
+  fill: var(--main-light-color);
+  font-size: 15px;
+  padding: 2px 2px;
+}
