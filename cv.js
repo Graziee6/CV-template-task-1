@@ -6,11 +6,11 @@ const randomNumbers = (min, max) => {
   return Math.floor(Math.random() * (max - min) + 1) - min;
 };
 
-function randomColor(a = 0.5) {
-  return `rgb(${randomNumbers(123, 132)}, ${randomNumbers(
-    0,
+function randomColor(a = 0.6) {
+  return `rgb(${randomNumbers(0, 132)}, ${randomNumbers(
+    70,
     280 * a
-  )}, ${randomNumbers(0, 300 * a)})`;
+  )}, ${randomNumbers(80, 300 * a)})`;
 }
 
 nameDiv.addEventListener("click", function () {
