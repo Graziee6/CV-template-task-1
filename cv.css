@@ -156,14 +156,14 @@ section .certifications p:not(:first-child)::before {
 .senior,
 .junior,
 .BS,
-.PMP {
+.PMP,
+.prince {
   display: flex;
 }
 
 .senior p,
 .junior p,
-.BS p,
-.PMP p {
+.BS p {
   position: relative;
   top: 16px;
   left: -200px;
@@ -185,7 +185,27 @@ section .certifications p:not(:first-child)::before {
   left: -127px;
 }
 
-.PMP h4 {
+.PMP .date {
   position: relative;
-  left: -10px;
+  top: 8px;
+  left: -70px;
+  color: var(--main-light-color);
+}
+
+.PMP:nth-child(2) {
+  position: relative;
+  left: -59px;
+}
+
+.prince .date {
+  position: relative;
+  top: 8px;
+  left: -128px;
+  color: var(--main-light-color);
+}
+
+.prince p:not(p.date) {
+  position: relative;
+  left: -71px;
+  top: -2px;
 }
