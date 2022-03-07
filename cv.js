@@ -15,5 +15,5 @@ function randomColor(a = 0.6) {
 
 nameDiv.addEventListener("click", function () {
   const randomAppearance = randomColor();
-  nameDiv.style.setProperty("--main-color", randomAppearance);
+  document.body.style.setProperty("--main-color", randomAppearance);
 });
