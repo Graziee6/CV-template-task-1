@@ -179,7 +179,7 @@ section .certifications p:not(:first-child)::before {
 
 .junior h4 {
   position: relative;
-  left: -130px;
+  left: -132px;
 }
 
 .senior h4 {
@@ -227,7 +227,7 @@ section .certifications p:not(:first-child)::before {
 
 .icons .one {
   position: absolute;
-  top: 303px;
+  top: 312px;
   left: 353px;
 }
 
@@ -240,7 +240,7 @@ section .certifications p:not(:first-child)::before {
 
 .icons .two {
   position: absolute;
-  top: 668px;
+  top: 678px;
   left: 352px;
 }
 .icons .two svg {
@@ -252,7 +252,7 @@ section .certifications p:not(:first-child)::before {
 
 .icons .three {
   position: absolute;
-  top: 825px;
+  top: 835px;
   left: 353px;
 }
 
@@ -266,7 +266,7 @@ section .certifications p:not(:first-child)::before {
 
 .icons .four {
   position: absolute;
-  top: 998px;
+  top: 1007px;
   left: 353px;
 }
 
@@ -279,7 +279,7 @@ section .certifications p:not(:first-child)::before {
 
 .icons .five {
   position: absolute;
-  top: 1106px;
+  top: 1116px;
   left: 353px;
 }
 
